@@ -8,27 +8,37 @@
                     <span class="slash">/</span>
                     <span class="register"> Register</span>
                 </div>
-                <span class="lang-box">
+                <div class="lang-box" @click="changeLang">
                     <div class="usa-icon">
                         <img src="@/assets/icons/usa.svg" alt="usg-icon">
                     </div>
-                    <span class="lang">USD </span>
+                    <span class="current-lang">USD </span>
                     <span class="arrow"></span>
-                </span>
+                    <div>
+                        <ul v-if="showLang">
+                            <li>English</li>
+                            <li>Russian</li>
+                            <li>German</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header-bottom">
             <div class="logo">
-                <img src="../assets/img/Logo.png" alt="Logo">
+                <router-link to="/home">
+                    <img src="../assets/img/Logo.png" alt="Logo">
+
+                </router-link>
             </div>
             <div class="menu">
                 <ul>
-                    <li>HOME</li>
-                    <li>SHOP</li>
-                    <li>FAQ'S</li>
-                    <li>STOCKISTS</li>
-                    <li>WHOLESALE</li>
-                    <li>CONTACT</li>
+                    <li><router-link to="/home">HOME</router-link></li>
+                    <li><router-link to="/shop">SHOP</router-link></li>
+                    <li><router-link to="/FAQ">FAQ'S</router-link></li>
+                    <li><router-link to="/stockists">STOCKISTS</router-link></li>
+                    <li><router-link to="/wholesale">WHOLESALE</router-link></li>
+                    <li><router-link to="/contact">CONTACT</router-link></li>
                 </ul>
             </div>
             <div class="icons">
@@ -41,6 +51,16 @@
         </div>
     </header>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const showLang = ref(false)
+
+const changeLang = () => {
+    showLang.value = !showLang.value
+}
+</script>
 
 <style scoped lang="scss">
 header {
@@ -87,6 +107,7 @@ header {
                 justify-content: space-around;
                 align-items: center;
                 cursor: pointer;
+                position: relative;
 
                 .usa-icon {
                     width: 24px;
@@ -98,7 +119,7 @@ header {
                     }
                 }
 
-                .lang {
+                .current-lang {
                     color: #ffffff;
                     font-size: 1rem;
                 }
@@ -107,6 +128,24 @@ header {
                     border-left: 0.25rem solid transparent;
                     border-right: 0.25rem solid transparent;
                     border-top: 0.25rem solid rgb(255, 255, 255);
+                }
+
+                ul {
+                    position: absolute;
+                    background-color: #b94242;
+                    border: 1px solid #000000;
+                    border-radius: 10px;
+                    border-top-left-radius: 0px;
+                    padding: 4px 10px;
+
+                    li {
+                        color: #ffffff;
+                        margin-top: 8px;
+
+                        &:hover {
+                            color: #eecdc5;
+                        }
+                    }
                 }
             }
         }
@@ -137,6 +176,14 @@ header {
             align-items: center;
             justify-content: space-between;
 
+            a {
+                color: #454545
+            }
+
+            a.router-link-active {
+                color: #f6623e;
+            }
+
             li {
                 font-size: 1.125rem;
                 color: #454545;
@@ -149,12 +196,15 @@ header {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            .search{
+
+            .search {
                 cursor: pointer;
             }
+
             .shop {
                 position: relative;
                 cursor: pointer;
+
                 .numb {
                     position: absolute;
                     top: 0;

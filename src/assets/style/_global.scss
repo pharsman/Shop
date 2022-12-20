@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    font-family: "Jost";
+    font-family: 'Jost', sans-serif;
 }
 
 .button {
@@ -14,7 +14,4 @@
     color: #ffffff;
     cursor: pointer;
     margin-top: 40px;
-    &:hover {
-        background-color: rgba(248, 144, 118, 0.863);
-    }
 }

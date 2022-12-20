@@ -1,11 +1,15 @@
 <template>
   <Header />
-  <Slider />
-  <Deal />
+  <RouterView />
 </template>
 
 <script setup>
 import Header from '@/components/Header.vue';
-import Slider from '@/components/Slider.vue';
-import Deal from '@/components/Deal.vue';
+
 </script>
+
+<style lang="scss">
+body {
+  margin-bottom: 120px;
+}
+</style>
