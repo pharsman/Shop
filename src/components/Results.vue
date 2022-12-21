@@ -101,6 +101,20 @@
                     border: 1px solid #828181;
                     margin-top: 24px;
                     cursor: pointer;
+                    transition: 0s 0.2s;
+
+                    &:active{
+                        border-color: #f6623e;
+                        transition: 0s;
+                    }
+                    &:active .left{
+                        border-color: #f6623e;
+                        transition: 0s;
+                    }
+                    &:active .right{
+                        border-color: #f6623e;
+                        transition: 0s;
+                    }
 
                     .left {
                         border: solid #828181;
@@ -109,6 +123,7 @@
                         padding: 10.6px;
                         transform: rotate(135deg);
                         margin: 10px 14px;
+                        transition: 0s 0.2s;
                     }
 
                     .right {
@@ -118,7 +133,12 @@
                         padding: 10.6px;
                         transform: rotate(-45deg);
                         margin: 10px 6px;
+                        transition: 0s 0.2s;
 
+                        &:active {
+                            border-color: #f6623e;
+                            transition: 0s;
+                        }
                     }
                 }
             }
