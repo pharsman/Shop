@@ -23,7 +23,9 @@
                 <span>$94.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
         </div>
-        <button class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">VIEW ALL PRODUCTS</button>
+        <router-link to="/shop">
+            <button class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">VIEW ALL PRODUCTS</button>
+        </router-link>
     </div>
 </template>
 
