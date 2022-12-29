@@ -30,10 +30,9 @@
 <style lang="scss" scoped>
 .cont {
     width: 87.2%;
-    height: 686px;
-    margin: 136px auto;
+    margin: auto;
     text-align: center;
-
+    margin-top: 82px;
     h2 {
         font-size: 2.25rem;
         text-align: center;

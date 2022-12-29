@@ -1,16 +1,16 @@
 <template>
     <div class="cont">
-        <div class="serv">
+        <div class="serv" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-once="true">
             <img src="../assets/img/Plane.png">
             <p>Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean</p>
         </div>
-        <div class="serv">
+        <div class="serv" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
             <img src="../assets/img/Money.png">
             <p>Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean</p>
         </div>
-        <div class="serv">
+        <div class="serv" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-once="true">
             <img style="width: 50px" src="../assets/img/Lock.png">
             <p>Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit. Aenean</p>
@@ -35,8 +35,9 @@
         img {
             width: 70px;
         }
-        p{
-            color:#828181;
+
+        p {
+            color: #828181;
             margin-top: 10px;
             font-size: 1rem;
         }

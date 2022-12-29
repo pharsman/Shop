@@ -7,6 +7,9 @@
     <Products />
     <Results />
     <ShopAll />
+    <Latest />
+    <Goodme />
+    <Footer />
 </template>
 
 <script setup>
@@ -15,7 +18,11 @@ import Deal from '@/components/Deal.vue';
 import Collections from '@/components/Collections.vue';
 import Services from '@/components/Services.vue';
 import Control from '@/components/Control.vue'
-import Products from '../components/Products.vue';
-import Results from '../components/Results.vue';
-import ShopAll from '../components/ShopAll.vue';
+import Products from '@/components/Products.vue';
+import Results from '@/components/Results.vue';
+import ShopAll from '@/components/ShopAll.vue';
+import Latest from '@/components/Latest.vue';
+import Goodme from '@/components/Goodme.vue';
+import Footer from '@/components/Footer.vue';
+
 </script>

@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="header-top">
+        <div class="header-top" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
             <span class="msg">Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</span>
             <div class="flex">
                 <div class="header-top-right">
@@ -24,7 +24,8 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
+        <div class="header-bottom" data-aos="fade-down" data-aos-duration="1000" 
+            data-aos-once="true">
             <div class="logo">
                 <router-link to="/home">
                     <img src="../assets/img/Logo.png" alt="Logo">

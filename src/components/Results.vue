@@ -2,7 +2,7 @@
     <div class="cont">
         <div class="white-img-up"></div>
         <div class="review-side">
-            <div class="review">
+            <div class="review" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
                 <h3>REAL REVIEWS</h3>
                 <h2>REAL RESULTS</h2>
                 <h2 class="star"> &#11088; &#11088; &#11088; &#11088; &#11088; </h2>
@@ -10,7 +10,7 @@
                     our
                     website.We can't wait until you are a part of our Good4Me Family.”</p>
                 <span>_Chloe H.</span>
-                <div class="arr">
+                <div class="arr" >
                     <div class="arrow">
                         <div class="left"></div>
                     </div>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="img-side">
+            <div class="img-side" data-aos="fade-up-left" data-aos-duration="1500" data-aos-once="true">
                 <div class="img">
                     <img src="../assets/img/Hand.png">
                 </div>

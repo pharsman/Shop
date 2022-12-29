@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="cont" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
         <div class="info">
             <h3>Good4Me</h3>
             <h2>Apple Cider Vinegar</h2>

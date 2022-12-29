@@ -1,18 +1,18 @@
 <template>
     <div class="cont">
-        <div class="ad" style="padding: 44px 50px;">
-            <img src="@/assets/img/coll1.png">
-            <p style="margin-top: 44px">MULTI-VITAMIN: EVERYDAY WELLNESS</p>
+        <div class="ad" style="padding: 44px 50px;" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
+            <img src="@/assets/img/coll1.png" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
+            <p style="margin-top: 44px" >MULTI-VITAMIN: EVERYDAY WELLNESS</p>
         </div>
-        <div class="ad">
+        <div class="ad" data-aos="flip-up" data-aos-duration="1500" data-aos-once="true">
             <img src="../assets/img/coll2.png">
             <p>MULTI-VITAMIN: EVERYDAY WELLNESS</p>
         </div>
-        <div class="ad" style="padding: 44px 50px;">
+        <div class="ad" style="padding: 44px 50px;" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
             <img src="@/assets/img/coll3.png">
             <p style="margin-top: 44px">MULTI-VITAMIN: EVERYDAY WELLNESS</p>
         </div>
-        <div class="ad">
+        <div class="ad" data-aos="flip-down" data-aos-duration="1500" data-aos-once="true">
             <img src="@/assets/img/coll4.png">
             <p>MULTI-VITAMIN: EVERYDAY WELLNESS</p>
         </div>

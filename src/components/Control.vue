@@ -1,7 +1,7 @@
 <template>
     <div class="cont">
         <div class="sub-cont">
-            <div class="text">
+            <div class="text" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                 <h2>TAKE CONTROL OF YOUR HEALTH</h2>
                 <p>The Good4Me range has been formulated based on scientific & traditional evidence.</p>
                 <p>Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
@@ -10,18 +10,24 @@
             </div>
         </div>
         <div class="sub-cont imgs">
-            <div class="img1">
+            <div class="img1" data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
                 <img src="@/assets/img/Girl1.png">
             </div>
-            <div class="img2">
+            <div class="img2" data-aos="flip-up" data-aos-duration="1000" data-aos-once="true">
                 <img src="@/assets/img/Girl2.png">
             </div>
-            <div class="img3">
+            <div class="img3"  >
                 <img src="@/assets/img/Girl3.png">
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+
+</script>
 
 <style lang="scss" scoped>
 .cont {
@@ -38,20 +44,24 @@
             width: 502px;
             margin-top: 140px;
             margin-left: 198px;
-            h2{
+
+            h2 {
                 font-weight: 600;
                 letter-spacing: 3px;
                 font-size: 3.125rem;
             }
-            p:first-of-type{
+
+            p:first-of-type {
                 margin-top: 34px;
             }
-            p{
+
+            p {
                 margin-top: 12px;
                 font-size: 1rem;
                 color: #454545;
             }
-            .button{
+
+            .button {
                 background-color: transparent;
                 border: 2px solid #f6623e;
                 color: #000000;
@@ -60,15 +70,17 @@
             }
         }
     }
-    .imgs{
+
+    .imgs {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
-        .img1{
+
+        .img1 {
             margin-right: 4px;
         }
     }
-    
+
 }
 </style>
