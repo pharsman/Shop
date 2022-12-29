@@ -1,7 +1,7 @@
 <template>
     <div class="cont">
         <img src="../assets/img/footer.png">
-        <div class="flex">
+        <div class="flex" data-aos="zoom-in-down" data-aos-duration="2500" data-aos-once="true">
             <div class="div">
                 <div class="img">
                     <img src="../assets/img/Logo.png">
@@ -30,7 +30,7 @@
                 </ul>
             </div>
         </div>
-        <footer>
+        <footer data-aos="zoom-in-down" data-aos-duration="1500" data-aos-once="true">
             <div class="social">
                 <ul>
                     <li><img src="../assets/icons/Facebook.svg"></li>

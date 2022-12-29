@@ -14,13 +14,6 @@
                     </div>
                     <span class="current-lang">USD </span>
                     <span class="arrow"></span>
-                    <div>
-                        <ul v-if="showLang">
-                            <li>English</li>
-                            <li>Russian</li>
-                            <li>German</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>

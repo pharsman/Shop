@@ -2,28 +2,28 @@
     <div class="cont">
         <h2>OUR PRODUCTS ARE</h2>
         <div class="images">
-            <div>
+            <div data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/Products1.png">
                 <p>MULTI-VITAMIN (3 MONTH SUPPLY)</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
-            <div class="pr" style="padding-top: 44px">
+            <div class="pr" style="padding-top: 44px" data-aos="flip-up" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/Products2.png">
                 <p style="margin-top: 64px">VITAMIN C: IMMUNITY SUPPORT</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
-            <div class="pr" style="padding-top: 44px">
+            <div class="pr" style="padding-top: 44px" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/coll1.png">
                 <p style="margin-top: 64px">MULTI-VITAMIN (3 MONTH SUPPLY)</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
-            <div>
+            <div data-aos="flip-down" data-aos-duration="1500" data-aos-once="true">
                 <img src="../assets/img/Products3.png">
                 <p>APPLE CIDER VINEGAR (3 MONTH SUPPLY)</p>
                 <span>$94.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
         </div>
-        <button class="button">VIEW ALL PRODUCTS</button>
+        <button data-aos="zoom-out" data-aos-duration="1500" data-aos-once="true" class="button">VIEW ALL PRODUCTS</button>
     </div>
 </template>
 

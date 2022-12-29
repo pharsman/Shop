@@ -2,28 +2,28 @@
     <div class="cont">
         <h2>SHOP ALL</h2>
         <div class="images">
-            <div class="pr" style="padding-top: 64px">
+            <div class="pr" style="padding-top: 64px" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
                 <img src="../assets/img/ShopALl1.png">
                 <p style="margin-top: 64px">**PRE-ORDER** HAIR, SKIN & NAILS (5 MONTH SUPPLY)</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
-            <div class="pr" style="padding-top: 44px">
+            <div class="pr" style="padding-top: 44px" data-aos="flip-up" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/ShopALl2.png">
                 <p style="margin-top: 64px">DETOX + BLOAT SUPPORT VALUE PACK</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
             <div>
-                <img src="@/assets/img/ShopALl3.png">
+                <img src="@/assets/img/ShopALl3.png" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
                 <p>PROBIOTICS: GUT HEALTH + BLOAT SUPPORT</p>
                 <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
             <div>
-                <img src="../assets/img/ShopALl4.png">
+                <img src="../assets/img/ShopALl4.png" data-aos="flip-down" data-aos-duration="1500" data-aos-once="true">
                 <p>APPLE CIDER VINEGAR</p>
                 <span>$94.95 NZD <span class="pre">$199.75 NZD</span></span>
             </div>
         </div>
-        <button class="button">VIEW ALL PRODUCTS</button>
+        <button class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">VIEW ALL PRODUCTS</button>
     </div>
 </template>
 

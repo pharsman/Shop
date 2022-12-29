@@ -10,6 +10,8 @@
     <Latest />
     <Goodme />
     <Footer />
+    <h2 @click="scrollUp">^</h2>
+
 </template>
 
 <script setup>
@@ -25,4 +27,19 @@ import Latest from '@/components/Latest.vue';
 import Goodme from '@/components/Goodme.vue';
 import Footer from '@/components/Footer.vue';
 
+const scrollUp = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
 </script>
+
+<style lang="scss" scoped>
+h2 {
+    font-size: 40px;
+    position: fixed;
+    top: 90%;
+    left: 40px;
+    cursor: pointer;
+}
+</style>
