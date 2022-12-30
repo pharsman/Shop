@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: "Jost", sans-serif;
     scroll-behavior: smooth;
-
 }
 
 .button {
@@ -17,3 +16,19 @@
     cursor: pointer;
     margin-top: 40px;
 }
+
+
+@media (max-width: 1580px){
+    .info{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1450px){
+    .info{
+        width: 100px;
+        position: abso;
+        margin-left: 400px;
+        margin-top: -80px;
+    }
+}
+

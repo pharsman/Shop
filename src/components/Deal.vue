@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="deal-container">
         <h2>GOOD4ME DEAL</h2>
         <div></div>
         <p>Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy products today!</p>
@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cont {
+.deal-container {
     width: 760px;
     padding: 2px 10px;
     margin-left: calc(50% - 380px);

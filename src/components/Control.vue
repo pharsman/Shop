@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="control-container">
         <div class="sub-cont">
             <div class="text" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                 <h2>TAKE CONTROL OF YOUR HEALTH</h2>
@@ -30,7 +30,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 </script>
 
 <style lang="scss" scoped>
-.cont {
+.control-container {
     margin: 138px auto;
     width: 93%;
     height: 678px;

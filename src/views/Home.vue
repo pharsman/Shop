@@ -2,16 +2,15 @@
     <Slider />
     <Deal />
     <Collections />
-    <Services />
-    <Control />
-    <Products />
-    <Results />
-    <ShopAll />
-    <Latest />
-    <Goodme />
-    <Footer />
+    <!-- <Services /> -->
+    <!-- <Control /> -->
+    <!-- <Products /> -->
+    <!-- <Results /> -->
+    <!-- <ShopAll /> -->
+    <!-- <Latest /> -->
+    <!-- <Goodme /> -->
+    <!-- <Footer /> -->
     <h2 @click="scrollUp">^</h2>
-
 </template>
 
 <script setup>

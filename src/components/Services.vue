@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="services-container">
         <div class="serv" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-once="true">
             <img src="../assets/img/Plane.png">
             <p>Lorem ipsum dolor sit amet, consectetuer
@@ -19,7 +19,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cont {
+.services-container {
     margin-top: 182px;
     display: flex;
     justify-content: space-around;

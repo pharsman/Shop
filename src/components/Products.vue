@@ -1,26 +1,26 @@
 <template>
-    <div class="cont">
+    <div class="products-container">
         <h2>OUR PRODUCTS ARE</h2>
-        <div class="images">
+        <div class="products-images">
             <div data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/Products1.png">
                 <p>MULTI-VITAMIN (3 MONTH SUPPLY)</p>
-                <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
+                <span>$39.95 NZD <span class="products-pre">$199.75 NZD</span></span>
             </div>
-            <div class="pr" style="padding-top: 44px" data-aos="flip-up" data-aos-duration="1500" data-aos-once="true">
+            <div class="products-pr" style="padding-top: 44px" data-aos="flip-up" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/Products2.png">
                 <p style="margin-top: 64px">VITAMIN C: IMMUNITY SUPPORT</p>
-                <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
+                <span>$39.95 NZD <span class="products-pre">$199.75 NZD</span></span>
             </div>
-            <div class="pr" style="padding-top: 44px" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
+            <div class="products-pr" style="padding-top: 44px" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
                 <img src="@/assets/img/coll1.png">
                 <p style="margin-top: 64px">MULTI-VITAMIN (3 MONTH SUPPLY)</p>
-                <span>$39.95 NZD <span class="pre">$199.75 NZD</span></span>
+                <span>$39.95 NZD <span class="products-pre">$199.75 NZD</span></span>
             </div>
             <div data-aos="flip-down" data-aos-duration="1500" data-aos-once="true">
                 <img src="../assets/img/Products3.png">
                 <p>APPLE CIDER VINEGAR (3 MONTH SUPPLY)</p>
-                <span>$94.95 NZD <span class="pre">$199.75 NZD</span></span>
+                <span>$94.95 NZD <span class="products-pre">$199.75 NZD</span></span>
             </div>
         </div>
         <router-link to="/shop">
@@ -30,7 +30,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cont {
+.products-container {
     width: 87.2%;
     height: 686px;
     margin: 136px auto;
@@ -49,7 +49,7 @@
     }
 
 
-    .images {
+    .products-images {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -67,14 +67,14 @@
             color: #f6623e;
             font-size: 0.875rem;
 
-            .pre {
+            .products-pre {
                 text-decoration: line-through;
                 color: #828181;
                 margin-left: 12px;
             }
         }
 
-        .pr {
+        .products-pr {
             width: 396px;
             background-color: #e8e8e8;
             height: 410px;

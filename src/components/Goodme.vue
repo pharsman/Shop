@@ -1,5 +1,5 @@
 <template>
-  <div class="cont">
+  <div class="goodme-container">
     <h2>#GOOD4ME</h2>
     <div class="slider">
       <Swiper />
@@ -12,7 +12,7 @@ import Swiper from './slider/Swiper.vue';
 </script>
 
 <style lang="scss" scoped>
-.cont {
+.goodme-container {
   margin-top: 120px;
   width: 100%;
   text-align: center;

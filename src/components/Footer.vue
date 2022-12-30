@@ -1,9 +1,9 @@
 <template>
-    <div class="cont">
+    <div class="footer-container">
         <img src="../assets/img/footer.png">
-        <div class="flex" data-aos="zoom-in-down" data-aos-duration="2500" data-aos-once="true">
+        <div class="footer-flex" data-aos="zoom-in-down" data-aos-duration="2500" data-aos-once="true">
             <div class="div">
-                <div class="img">
+                <div class="footer-img">
                     <img src="../assets/img/Logo.png">
                 </div>
                 <p>Good health is important, so all of our products have been carefully designed to bring out the best
@@ -52,7 +52,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cont {
+.footer-container {
     margin-top: 136px;
     width: 100%;
     background-color: #fff8f6;
@@ -61,7 +61,7 @@
         width: 100%;
     }
 
-    .flex {
+    .footer-flex {
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -72,7 +72,7 @@
             text-align: center;
             margin-top: 56px;
 
-            .img {
+            .footer-img {
                 width: 138px;
                 margin: auto;
                 height: 32px;

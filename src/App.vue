@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <RouterView />
+  <RouterView data-aos="fade" data-aos-duration="500" data-aos-easing="ease-in-out" />
 </template>
 
 <script setup>

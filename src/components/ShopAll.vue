@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="shop-container">
         <h2>SHOP ALL</h2>
         <div class="images">
             <div class="pr" style="padding-top: 64px" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
@@ -30,7 +30,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cont {
+.shop-container {
     width: 87.2%;
     margin: auto;
     text-align: center;

@@ -1,5 +1,5 @@
 <template>
-    <div class="cont">
+    <div class="results-container">
         <div class="white-img-up"></div>
         <div class="review-side">
             <div class="review" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="img-side" data-aos="fade-up-left" data-aos-duration="1500" data-aos-once="true">
-                <div class="img">
+                <div class="results-img">
                     <img src="../assets/img/Hand.png">
                 </div>
             </div>
@@ -35,7 +35,7 @@
 </script>
 
 <style scoped lang="scss">
-.cont {
+.results-container {
     width: 100%;
     height: 884px;
     background-color: #fef0e7;

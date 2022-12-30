@@ -2,7 +2,7 @@
     <header>
         <div class="header-top" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
             <span class="msg">Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</span>
-            <div class="flex">
+            <div class="header-flex">
                 <div class="header-top-right">
                     <span class="sign-in">Sign In </span>
                     <span class="slash">/</span>
@@ -13,7 +13,7 @@
                         <img src="@/assets/icons/usa.svg" alt="usg-icon">
                     </div>
                     <span class="current-lang">USD </span>
-                    <span class="arrow"></span>
+                    <span class="lang-arrow"></span>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ header {
             font-size: 1rem;
         }
 
-        .flex {
+        .header-flex {
             display: flex;
             width: 220px;
             justify-content: space-between;
@@ -118,7 +118,7 @@ header {
                     font-size: 1rem;
                 }
 
-                .arrow {
+                .lang-arrow {
                     border-left: 0.25rem solid transparent;
                     border-right: 0.25rem solid transparent;
                     border-top: 0.25rem solid rgb(255, 255, 255);
